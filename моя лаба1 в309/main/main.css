@@ -1,0 +1,17 @@
+body{
+	display: inline-block;
+	width: 300px;
+	margin: 100px 500px;
+	padding: 30px;
+	border: solid 1px blue;
+	border-radius: 10px;
+
+	
+}
+th{
+	text-align: center;
+}
+.btn{
+	margin: 20px 70px;
+
+}
