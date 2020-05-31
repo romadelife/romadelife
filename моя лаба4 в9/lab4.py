@@ -460,5 +460,13 @@ if cont==1:
         cont=1
     else:
         print("Fp=",round(Fp,2),"<Ft",Ft,"Рівняння адекватно оригіналу")
+    def benchmark(func):
+        import time
 
+        def wrapper():
+            start = time.time()
+            func()
+            end = time.time()
+            print('Час виконання: {} секунд.'.format(end-start))
+        return wrapper
 
